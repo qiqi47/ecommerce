@@ -7,7 +7,7 @@ import Data from "./components/Data";
 import Cart from "./common/Cart/Cart";
 import Footer from "./common/footer/Footer";
 import Sdata from "./components/shops/Sdata";
-import Detail from "./components/MainPage/DetailPage";
+import DetailPage from "./components/MainPage/DetailPage";
 
 function App() {
   /*
@@ -100,7 +100,7 @@ function App() {
             />
           </Route>
           <Route path="/detail" exact>
-            <Detail CartItem={CartItem} />
+            <DetailPage CartItem={CartItem} />
           </Route>
         </Switch>
         <Footer />
