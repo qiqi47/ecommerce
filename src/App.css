@@ -13,7 +13,7 @@ body {
 }
 .background {
   background: #f6f9fc;
-  padding: 50px 0;
+  padding: 3.125rem 0;
 }
 .container {
   max-width: 90%;
@@ -57,9 +57,9 @@ button {
   width: 50%;
 }
 .icon-circle {
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
   background: #f3f5f9;
   margin-left: 20px;
   text-align: center;
@@ -81,6 +81,7 @@ button {
   padding: 15px 0;
   border-radius: 5px;
   margin-top: 5px;
+  overflow: visible;
 }
 .category img {
   width: 30px;
@@ -103,17 +104,17 @@ button {
 
 /*---------category----------*/
 .btn-primary {
-  background: #e94560;
+  background: #e58411;
   padding: 13px 40px;
   font-weight: bold;
   color: #fff;
   border-radius: 5px;
 }
 .top {
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 .mtop {
-  margin-top: 40px;
+  margin-top: 3.5rem;
 }
 .heading i {
   color: #e94560;
@@ -123,10 +124,10 @@ button {
   position: absolute;
   top: 0;
   left: 0;
-  background: #e94560;
+  background: #e58411;
   padding: 3px 10px;
   font-size: 12px;
-  border-radius: 50px;
+  border-radius: 3.125rem;
   color: #fff;
   margin: 10px;
 }
@@ -181,7 +182,7 @@ button {
   padding: 1px 10px;
   font-size: 12px;
   color: white;
-  border-radius: 50px;
+  border-radius: 3.125rem;
 }
 .product-like i {
   font-size: 20px;
@@ -196,8 +197,8 @@ button {
 .control-btn .prev {
   position: absolute;
   top: 40%;
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
   line-height: 60px;
   background: #0f3460;
   border-radius: 50%;

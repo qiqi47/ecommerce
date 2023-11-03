@@ -1,7 +1,7 @@
 .cart-items {
   background: #f6f9fc;
   height: auto;
-  padding: 50px 0;
+  padding: 3.125rem 0;
 }
 
 .cart-items .cart-details {
@@ -19,8 +19,8 @@
   margin-top: 30px;
 }
 .cart-items .img {
-  width: 150px;
-  height: 150px;
+  width: 13.125rem;
+  height: 13.125rem;
 }
 .cart-items img {
   width: 100%;
@@ -35,7 +35,7 @@
 .cart-items .cart-details h4 {
   font-size: 15px;
   font-weight: 400;
-  margin-top: 50px;
+  margin-top: 3.125rem;
   color: grey;
 }
 .cart-items h4 span {
@@ -50,7 +50,7 @@
   margin-right: 10px;
 }
 .cartControl {
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 .cartControl button {
   width: 40px;
