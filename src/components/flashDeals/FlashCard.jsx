@@ -31,7 +31,7 @@ const FlashCard = ({ productItems, addToCart }) => {
   }
   const history = useHistory();
   const handleDivClick = (itemId) => {
-    history.push(`/item/${itemId}`);
+    history.push(`/detail/${itemId}`);
   };
   {
     /*******/
