@@ -92,14 +92,14 @@ function App() {
               shopItems={shopItems}
             />
           </Route>
-          <Route path="/cart" exact>
+          <Route path="/cart">
             <Cart
               CartItem={CartItem}
               addToCart={addToCart}
               decreaseQty={decreaseQty}
             />
           </Route>
-          <Route path="/detail" exact>
+          <Route path="/detail">
             <DetailPage CartItem={CartItem} />
           </Route>
         </Switch>

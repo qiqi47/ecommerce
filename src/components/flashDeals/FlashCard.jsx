@@ -26,10 +26,16 @@ const SamplePrevArrow = (props) => {
   );
 };
 const FlashCard = ({ productItems, addToCart }) => {
+  {
+    /*这段是我加的*/
+  }
   const history = useHistory();
   const handleDivClick = (itemId) => {
     history.push(`/item/${itemId}`);
   };
+  {
+    /*******/
+  }
   const [count, setCount] = useState(0);
   const increment = () => {
     setCount(count + 1);
