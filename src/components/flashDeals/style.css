@@ -2,3 +2,7 @@
   background: #f6f9fc;
   padding: 3.125rem 0;
 }
+
+.box :hover {
+  cursor: pointer;
+}
